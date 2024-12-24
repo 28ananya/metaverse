@@ -1,0 +1,17 @@
+{
+  "name": "http_apis",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start":"node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.2"
+  }
+}
