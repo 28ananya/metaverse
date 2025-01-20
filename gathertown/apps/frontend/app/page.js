@@ -5,6 +5,7 @@ import Landing from "@/components/Landing";
 import RemoteArea from "@/components/RemoteArea";
 import { useView } from "@/contextApi/View";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
   const {view ,viewChange}=useView();
@@ -14,6 +15,7 @@ export default function Home() {
     remote:<RemoteArea />,
     conference:<Conference />
   }
+
   return (
     <div>
       hello
